@@ -1,4 +1,4 @@
-#write a python script to check whether two given numbers is co-prime or not.
+#write a python script to calculate LCM of two numbers.
 
 x=int(input("enter 1st number:"))
 y=int(input("Enter 2nd number:"))
