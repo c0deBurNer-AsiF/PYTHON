@@ -16,4 +16,19 @@ while x<y:
 
     if x==i:
         print(x)
+
+#using for else method
+"""
+a=int(input("Enter lesser number:"))
+b=int(input("Enter greater number:"))
+
+z=range(a+1,b)
+for x in z:
+    for num in range(2,x):
+        if x%num==0:
+            break
+        
+    else:
+        print(x)
+        """
       
