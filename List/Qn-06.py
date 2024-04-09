@@ -8,3 +8,15 @@ for e in l:
     if e==n:
         print(l.index(e))
         l.remove(e)
+
+#2nd method---->
+'''
+l=[int(e) for e in input("Enter numbers separated by comma:").split(',')]
+x=int(input("Select any element from this list"))
+print(l)
+i=0
+while i<len(l):
+    if l[i]==x:
+        print(i,end=" ")
+    i+=1   
+'''
