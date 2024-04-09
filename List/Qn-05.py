@@ -8,3 +8,9 @@ l=[]
 for i in s:
     l+=[i**2]
 print(l)
+
+#2nd method--->
+'''
+l=[e**2 for e in range(1,int(input("Enter a natural number:"))+1)]
+print(l)
+'''
