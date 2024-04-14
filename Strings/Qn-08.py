@@ -35,4 +35,23 @@ for e in range(n):
 s=set(l)
 for e in s:
     print(e)
-'''    
+''' 
+
+
+
+#2nd method----->
+'''
+l=input("Enter names seprated with space:").split(' ')
+i=0
+n=0
+while i<len(l):
+    n=i+1
+    while n<len(l):
+        if l[i]==l[n]:
+            break
+        n+=1
+    else:
+        print(l[i])
+        
+    i+=1 
+'''
