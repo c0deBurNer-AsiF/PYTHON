@@ -9,5 +9,10 @@ else:
     print(p,"is not in the string:",s)
         
 
-    
+
+'''
+s=input("Enter strings:")
+p=input("Enter the pattern which one u want to search:")
+print(p,"---->",s.count(p))
+'''    
 
