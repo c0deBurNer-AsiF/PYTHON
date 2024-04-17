@@ -2,6 +2,15 @@
 
 t1=eval(input("Enter a tuple (say t1):"))
 t2=eval(input("Enter a tuple (say t2):"))
+print("t2 is subset of t1" if all(e in t1 for e in t2) else "t1 is subset of t2" if all(e in t2 for e in t1) else "Noone is subset of anyone")
+
+
+
+
+#2nd method---->
+'''
+t1=eval(input("Enter a tuple (say t1):"))
+t2=eval(input("Enter a tuple (say t2):"))
 i=0
 n=0
 if len(t1)>=len(t2):
@@ -34,6 +43,6 @@ if len(t2)>=len(t1):
     else:
         print("t1 is subset of t2")
 
-
+'''
 
 
