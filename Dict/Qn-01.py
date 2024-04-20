@@ -5,4 +5,5 @@ l=list(input("Enter characters:").split(','))
 for i in l:
    print("Enter words for key",i)
    words[i]=input()
-print(words)
+for i,k in words.items():
+   print(i,"--->",k)
