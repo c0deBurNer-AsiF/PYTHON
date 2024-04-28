@@ -1,5 +1,5 @@
-#write a python function whicb takes a list of string as an argument and returns a dictionary
-#whose each item is a pair of alphabet (as key) and list of strings begin with the alphabets.
+#write a python function which takes a tuple of int values and returns a dictionary
+#whose each item is a pair of int value and its frequency in the tuple
 
 def tup(n):
     i=0
