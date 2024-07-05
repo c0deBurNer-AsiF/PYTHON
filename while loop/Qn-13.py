@@ -1,4 +1,4 @@
-#write a python script to print cubes of first 10 natural number
+#write a python script to print multiple of 5 of N natural number
 
 i=1
 while i<=10:
