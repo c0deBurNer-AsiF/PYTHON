@@ -40,9 +40,6 @@ match x:
             print("Roots are real and Equal") 
 
 
-    case x if x>4:
-        print("Out of range")
-
 
     case _:
-        print("Thanks for using!!")   
+        print("Input out of range!!")   
