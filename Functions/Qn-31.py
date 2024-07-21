@@ -2,7 +2,7 @@
 
 def removeDuplicate(l):
     return list(set(l))
-result=print(removeDuplicate([int(e) for e in input("Enter integer(seprated by comma):").split(",")]))
+#result=print(removeDuplicate([int(e) for e in input("Enter integer(seprated by comma):").split(",")]))
 
 '''
 def list(l):
